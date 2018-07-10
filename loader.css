@@ -1,0 +1,22 @@
+@keyframes anime{
+	0%{background-color: grey; width: 0%;}
+	50%{background-color: blue; width:50%;}
+	100%{background-color: green; width: 100%;}
+}
+.loader1{
+	display:block;
+	 width:500px; 
+	 height:40px; 
+	 background-color:grey;
+	 margin: 200px auto;
+}
+.loader2{
+	display: block;
+	height:40px;
+	width: 500px;
+	background-color: blue;
+	animation-name: anime;
+	animation-duration: 10s;
+	animation-iteration-count:infinite;
+	
+

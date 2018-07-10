@@ -1,0 +1,9 @@
+@keyframes myanimation{
+	from{background: green;}
+	to{background: red;}
+}
+body{
+	animation-name: myanimation;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
